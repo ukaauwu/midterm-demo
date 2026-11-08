@@ -1,0 +1,7 @@
+streamlit>=1.32,<2
+numpy>=1.24
+pillow>=10.0
+matplotlib>=3.7
+pandas>=2.0
+# 需 4.x：5.x 已移除 CascadeClassifier（程式會自動退回 scikit-image，但不提供信心度）
+opencv-python-headless>=4.8,<5
